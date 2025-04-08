@@ -2,11 +2,11 @@ name: Build and Publish to Docker Hub
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
     # Publish when tags are pushed
     tags: [ 'v*.*.*' ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, master ]
   # Allow manual triggers
   workflow_dispatch:
 
