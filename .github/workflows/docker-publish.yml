@@ -17,7 +17,7 @@ jobs:
     strategy:
       # Configure matrix for multiple images
       matrix:
-        image: [python-git]  # Replace with your actual image directories
+        image: [python-git,code-assistant]  # Replace with your actual image directories
 
     steps:
       - name: Checkout repository
