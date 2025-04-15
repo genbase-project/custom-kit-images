@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.12-slim
 
 LABEL maintainer="Utkarsh Kanwat <utkarshkanwat@gmail.com>"
 LABEL description="Custom image with Python and Git"
